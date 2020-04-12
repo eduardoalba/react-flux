@@ -31,11 +31,11 @@ TextInput.propTypes = {
   label: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
   value: PropTypes.string,
-  error: PropTypes.string,
+  error: PropTypes.string
 };
 
 TextInput.defaultProps = {
-  error: "",
+  error: ""
 };
 
 export default TextInput;
