@@ -1,5 +1,5 @@
 import React from "react";
-import { PropTypes } from "prop-types";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 function CourseList(props) {
@@ -8,7 +8,7 @@ function CourseList(props) {
       <thead>
         <tr>
           <th>Title</th>
-          <th>Author Id</th>
+          <th>Author ID</th>
           <th>Category</th>
         </tr>
       </thead>
